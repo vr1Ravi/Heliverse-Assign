@@ -1,5 +1,6 @@
 import Bar from './components/Bar';
 import Brands from './components/Brands';
+import Footer from './components/Footer';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import SectionOne from './components/SectionOne';
@@ -16,6 +17,7 @@ function App() {
       <SectionOne />
       <SectionTwo />
       <SectionThree />
+      <Footer />
     </div>
   );
 }

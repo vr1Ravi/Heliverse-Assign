@@ -1,6 +1,9 @@
 const Header = () => {
   return (
-    <header className="bg-[#262626] py-3 px-4 flex justify-between">
+    <header
+      className="bg-[#262626] top-0 py-3 px-4 flex justify-between fixed w-screen
+     overflow-hidden z-10"
+    >
       <div className="flex items-center">
         <a href="/" className="bg-logo w-[150px] h-[18px] "></a>
       </div>

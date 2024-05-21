@@ -7,7 +7,7 @@ const SectionOne = () => {
         Apply On Any Section Or Enable For <br /> Whole Page
       </h1>
 
-      <div className=" flex gap-3 px-16">
+      <div className=" flex gap-3 flex-col md:flex-row px-16">
         <div className="bg-gradient-to-b from-[#0f0821] to-[#241d34] px-8 rounded-2xl border border-[#332c42] py-8">
           <h1 className="text-white text-2xl font-semibold ">
             Apply On Section
